@@ -275,3 +275,10 @@ private final class CheatSwitch: UISwitch {
         handler?(isOn)
     }
 }
+
+// --- REQUIRED ENTRY POINT FOR THEOS/LIVECONTAINER ---
+// This allows the dylib to start the menu automatically when injected.
+@_cdecl("modmenu_init")
+public func modmenu_init() {
+    ModMenu.shared.install()
+}
