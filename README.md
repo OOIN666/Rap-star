@@ -17,7 +17,7 @@ Source dump entries: 12
 
 ## Integration
 
-1. Add ModMenu.swift, Patcher.swift and Cheats.swift to the target application in Nyxian.
+1. Add ModMenu.swift, Patcher.swift and Cheats.swift to the target application in GitHub.
 2. In SceneDelegate.scene(_:willConnectTo:options:), after window.makeKeyAndVisible(), call:
    ModMenu.shared.install()
 3. The image search string is set in CheatCenter.install(). It defaults to "UnityFramework".
