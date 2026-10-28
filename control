@@ -1,0 +1,8 @@
+Package: com.babeodin.mymodmenu
+Name: MyModMenu
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: My mod menu
+Maintainer: Babeodin
+Author: Babeodin
+Section: Tweaks
